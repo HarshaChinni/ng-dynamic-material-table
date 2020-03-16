@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+Remove margins from body
+Set height: 100% on html and body
+Set Roboto as the default application font */
+
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
